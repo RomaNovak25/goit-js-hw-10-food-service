@@ -41,8 +41,8 @@ function chengeTheme(evt) {
 }
 
 //////////////////////  //////////////////////
-function changeTheme(event) {
-    if (event.target.checked) {
+function changeTheme(evt) {
+    if (evt.target.checked) {
         document.body.classList.replace(Theme.LIGHT, Theme.DARK);
         localStorage.setItem('checkBox', 'On');
     };
