@@ -2,7 +2,7 @@
 import menu from './menu.json';
 import templateFunction from '../template/menu.hbs';
 
-const menuEl = document.querySelector('.js-menu');
+const menuEl = document.querySelector('ul.js-menu');
 
 const markup = templateFunction(menu);
 menuEl.insertAdjacentHTML('beforeend', markup);
